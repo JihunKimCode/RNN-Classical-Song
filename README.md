@@ -1,5 +1,5 @@
-# CS420-Final-Project
-This is the GitHub Repository for CS420 Final Project at UTK.
+# Generate a New Classical Song Using a Recurrent Neural Network
+We wanted to identify the potential of using neural networks for music generation. We used a recurrent neural network (RNN) consisting of an Autoencoder and Long Short-Term Memory (LSTM) to create a model that can identify patterns of existing classical songs and create new classical songs using the patterns.
 
 # Project Goals
 - [x] Training an AI using Recurrent Neural Networks with lots of classical music, and making it **create a new classical song** based on what it learned.
@@ -11,11 +11,11 @@ This is the GitHub Repository for CS420 Final Project at UTK.
 "Final Project.py" in the Code folder uses these libraries:
 * os
 * mido
-* numpy
-* tensorflow
+* NumPy
+* TensorFlow
 
-You can do `pip install` for `mido`, `numpy`, and `tensorflow`. We used Anaconda for using tensorflow library.
-"Final Project.py" takes the input as a folder of MIDI files and output a MIDI file.
+You can do `pip install` for `mido`, `numpy`, and `tensorflow`. We used Anaconda for using the TensorFlow library.
+"Final Project.py" takes the input as a folder of MIDI files and outputs a MIDI file.
 To modify input and output direction, change `data_dir` on line 7 and `midi_file.save` on line 89 respectively.
 
 ## Related Works
