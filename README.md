@@ -7,6 +7,10 @@ We wanted to identify the potential of using neural networks for music generatio
 - [ ] Incorporate another bio-inspired approach, like EA or PSO to do hyperparameter optimization on the recurrent neural network.
 - [ ] To avoid overfitting, explore adding a bit of randomness or noise to inputs.
 
+## Contributors
+- Jihun Kim
+- Jonathan Skeen
+
 ## Setup
 "Final Project.py" in the Code folder uses these libraries:
 * os
